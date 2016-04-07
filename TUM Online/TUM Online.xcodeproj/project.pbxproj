@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491609D81CB671E400673DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491609D71CB671E400673DA8 /* AppDelegate.swift */; };
+		491609DA1CB671E400673DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491609D91CB671E400673DA8 /* ViewController.swift */; };
+		491609DD1CB671E400673DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491609DB1CB671E400673DA8 /* Main.storyboard */; };
+		491609DF1CB671E400673DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491609DE1CB671E400673DA8 /* Assets.xcassets */; };
+		491609E21CB671E400673DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491609E01CB671E400673DA8 /* LaunchScreen.storyboard */; };
+		491609ED1CB671E400673DA8 /* TUM_OnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491609EC1CB671E400673DA8 /* TUM_OnlineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		491609E91CB671E400673DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491609CC1CB671E400673DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491609D31CB671E400673DA8;
+			remoteInfo = "TUM Online";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491609D41CB671E400673DA8 /* TUM Online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TUM Online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491609D71CB671E400673DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491609D91CB671E400673DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		491609DC1CB671E400673DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491609DE1CB671E400673DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491609E11CB671E400673DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491609E31CB671E400673DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491609E81CB671E400673DA8 /* TUM OnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TUM OnlineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491609EC1CB671E400673DA8 /* TUM_OnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUM_OnlineTests.swift; sourceTree = "<group>"; };
+		491609EE1CB671E400673DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491609D11CB671E400673DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491609E51CB671E400673DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491609CB1CB671E400673DA8 = {
+			isa = PBXGroup;
+			children = (
+				491609D61CB671E400673DA8 /* TUM Online */,
+				491609EB1CB671E400673DA8 /* TUM OnlineTests */,
+				491609D51CB671E400673DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491609D51CB671E400673DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491609D41CB671E400673DA8 /* TUM Online.app */,
+				491609E81CB671E400673DA8 /* TUM OnlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491609D61CB671E400673DA8 /* TUM Online */ = {
+			isa = PBXGroup;
+			children = (
+				491609D71CB671E400673DA8 /* AppDelegate.swift */,
+				491609D91CB671E400673DA8 /* ViewController.swift */,
+				491609DB1CB671E400673DA8 /* Main.storyboard */,
+				491609DE1CB671E400673DA8 /* Assets.xcassets */,
+				491609E01CB671E400673DA8 /* LaunchScreen.storyboard */,
+				491609E31CB671E400673DA8 /* Info.plist */,
+			);
+			path = "TUM Online";
+			sourceTree = "<group>";
+		};
+		491609EB1CB671E400673DA8 /* TUM OnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				491609EC1CB671E400673DA8 /* TUM_OnlineTests.swift */,
+				491609EE1CB671E400673DA8 /* Info.plist */,
+			);
+			path = "TUM OnlineTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491609D31CB671E400673DA8 /* TUM Online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491609F11CB671E400673DA8 /* Build configuration list for PBXNativeTarget "TUM Online" */;
+			buildPhases = (
+				491609D01CB671E400673DA8 /* Sources */,
+				491609D11CB671E400673DA8 /* Frameworks */,
+				491609D21CB671E400673DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUM Online";
+			productName = "TUM Online";
+			productReference = 491609D41CB671E400673DA8 /* TUM Online.app */;
+			productType = "com.apple.product-type.application";
+		};
+		491609E71CB671E400673DA8 /* TUM OnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491609F41CB671E400673DA8 /* Build configuration list for PBXNativeTarget "TUM OnlineTests" */;
+			buildPhases = (
+				491609E41CB671E400673DA8 /* Sources */,
+				491609E51CB671E400673DA8 /* Frameworks */,
+				491609E61CB671E400673DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				491609EA1CB671E400673DA8 /* PBXTargetDependency */,
+			);
+			name = "TUM OnlineTests";
+			productName = "TUM OnlineTests";
+			productReference = 491609E81CB671E400673DA8 /* TUM OnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491609CC1CB671E400673DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Marc Serafin";
+				TargetAttributes = {
+					491609D31CB671E400673DA8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					491609E71CB671E400673DA8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 491609D31CB671E400673DA8;
+					};
+				};
+			};
+			buildConfigurationList = 491609CF1CB671E400673DA8 /* Build configuration list for PBXProject "TUM Online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491609CB1CB671E400673DA8;
+			productRefGroup = 491609D51CB671E400673DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491609D31CB671E400673DA8 /* TUM Online */,
+				491609E71CB671E400673DA8 /* TUM OnlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491609D21CB671E400673DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491609E21CB671E400673DA8 /* LaunchScreen.storyboard in Resources */,
+				491609DF1CB671E400673DA8 /* Assets.xcassets in Resources */,
+				491609DD1CB671E400673DA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491609E61CB671E400673DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491609D01CB671E400673DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491609DA1CB671E400673DA8 /* ViewController.swift in Sources */,
+				491609D81CB671E400673DA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491609E41CB671E400673DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491609ED1CB671E400673DA8 /* TUM_OnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		491609EA1CB671E400673DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491609D31CB671E400673DA8 /* TUM Online */;
+			targetProxy = 491609E91CB671E400673DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		491609DB1CB671E400673DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491609DC1CB671E400673DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		491609E01CB671E400673DA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491609E11CB671E400673DA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491609EF1CB671E400673DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		491609F01CB671E400673DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491609F21CB671E400673DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TUM Online/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tum.TUM-Online";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491609F31CB671E400673DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TUM Online/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tum.TUM-Online";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		491609F51CB671E400673DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TUM OnlineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tum.TUM-OnlineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUM Online.app/TUM Online";
+			};
+			name = Debug;
+		};
+		491609F61CB671E400673DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TUM OnlineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tum.TUM-OnlineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUM Online.app/TUM Online";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491609CF1CB671E400673DA8 /* Build configuration list for PBXProject "TUM Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491609EF1CB671E400673DA8 /* Debug */,
+				491609F01CB671E400673DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491609F11CB671E400673DA8 /* Build configuration list for PBXNativeTarget "TUM Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491609F21CB671E400673DA8 /* Debug */,
+				491609F31CB671E400673DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491609F41CB671E400673DA8 /* Build configuration list for PBXNativeTarget "TUM OnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491609F51CB671E400673DA8 /* Debug */,
+				491609F61CB671E400673DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491609CC1CB671E400673DA8 /* Project object */;
+}
